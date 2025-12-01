@@ -89,14 +89,15 @@ export function FestivalPoster() {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Poster */}
           <div className="relative group">
-          <div className="aspect-[3/4] bg-black rounded-2xl overflow-hidden shadow-2xl">
-               <ImageWithFallback
+            <div className="aspect-[3/4] bg-black rounded-2xl overflow-hidden shadow-2xl">
+              <ImageWithFallback
                 src="https://images.unsplash.com/photo-1763733594402-051a9721ff14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpZ2Vub3VzJTIwY3VsdHVyZSUyMGZlc3RpdmFsfGVufDF8fHx8MTc2NDU1MTk2OHww&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Festival Poster"
-    className="w-full h-full object-cover opacity-80 grayscale"
-  />
+                className="w-full h-full object-cover opacity-80 grayscale"
+              />
+
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center bg-[rgba(0,0,0,0.35)] p-[32px]">
-                
+
                 <h3 className="text-3xl md:text-4xl mb-4 text-[rgb(255,255,255)]">
                   FECSINE 2025
                 </h3>
